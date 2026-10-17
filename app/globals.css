@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/* Tailwind CSS 4: os tokens do tema são configurados em CSS.
+   Amostras opacas do logo, quantizadas em passos de 16: preto #101010,
+   carvão #202020, bronze #806040 e dourado claro #d0c0a0 / #f0e0d0.
+   A escala complementar deriva dessas amostras para contraste e estados. */
+:root {
+  color-scheme: light;
+  --brand-ink: #201a17;
+  --brand-ink-soft: #665c54;
+  --brand-paper: #faf8f4;
+}
+@theme inline {
+  --font-display: var(--font-display-face), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-body), "Manrope", system-ui, sans-serif;
+  --color-ink: #201a17;
+  --color-ink-soft: #665c54;
+  --color-paper: #ffffff;
+  --color-ivory: #faf8f4;
+  --color-linen: #eee7dd;
+  --color-brand-50: #f4efe7;
+  --color-brand-100: #f0e0d0;
+  --color-brand-200: #e1d1b9;
+  --color-brand-300: #d0c0a0;
+  --color-brand-400: #b59b75;
+  --color-brand-500: #947753;
+  --color-brand-600: #8b6944;
+  --color-brand-700: #806040;
+  --color-brand-800: #65492f;
+  --color-brand-900: #302820;
+  --color-brand-950: #201a17;
+  --shadow-card: 0 18px 48px rgb(32 26 23 / 18%);
+}
+html { scroll-padding-top: 7rem; scroll-behavior: smooth; }
+img { max-width: 100%; }
+body {
+  background: var(--brand-paper);
+  color: var(--brand-ink);
+  font-family: var(--font-body), "Manrope", system-ui, sans-serif;
+  caret-color: var(--color-brand-700);
+}
+::selection { background: var(--color-brand-700); color: white; }
+h1, h2 { text-wrap: balance; }
+.font-display { font-weight: 500; letter-spacing: -0.025em; }
+.nav-link {
+  position: relative;
+  padding-block: 0.75rem;
+  color: var(--color-ink-soft);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  transition: color 180ms ease;
+}
+.nav-link::after {
+  position: absolute;
+  inset: auto 0 0;
+  height: 1px;
+  background: var(--color-brand-700);
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 180ms ease;
+}
+.nav-link:hover { color: var(--color-brand-700); }
+.nav-link:hover::after { transform: scaleX(1); }
+.footer-link { transition: color 180ms ease; }
+.footer-link:hover { color: white; text-decoration: underline; text-underline-offset: 4px; }
+:focus-visible { outline: 2px solid var(--color-brand-700); outline-offset: 4px; }
+:is(.brand-footer, .bg-brand-950, .bg-brand-700) :focus-visible { outline-color: white; }
+.hero-signature {
+  background: var(--color-brand-100);
+  animation: signature-reveal 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@keyframes signature-reveal {
+  from { clip-path: inset(0 0 12% 0); }
+  to { clip-path: inset(0); }
+}
+.brand-footer .text-ink-soft { color: var(--color-brand-200); }
+.brand-footer .text-brand-700 { color: white; }
+.brand-footer .border-ink\/15 { border-color: rgb(192 192 192 / 25%); }
+::-webkit-scrollbar { width: 9px; }
+::-webkit-scrollbar-track { background: var(--color-brand-50); }
+::-webkit-scrollbar-thumb {
+  border: 2px solid var(--color-brand-50);
+  border-radius: 999px;
+  background: var(--color-brand-400);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-brand-700); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+  .hero-signature { animation: none; }
+}

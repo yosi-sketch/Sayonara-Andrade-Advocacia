@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T13:20:35Z",
+  "title": "Design System: Sayonara Andrade Advocacia",
+  "extensions": {
+    "colorMeta": {
+      "brand-50": {
+        "role": "primary",
+        "displayName": "Bronze quase branco",
+        "canonical": "#f4efe7",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-100": {
+        "role": "primary",
+        "displayName": "Dourado porcelana",
+        "canonical": "#f0e0d0",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-200": {
+        "role": "primary",
+        "displayName": "Dourado suave",
+        "canonical": "#e1d1b9",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-300": {
+        "role": "primary",
+        "displayName": "Dourado do logo",
+        "canonical": "#d0c0a0",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-400": {
+        "role": "primary",
+        "displayName": "Ouro fosco",
+        "canonical": "#b59b75",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-500": {
+        "role": "primary",
+        "displayName": "Bronze médio",
+        "canonical": "#947753",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-600": {
+        "role": "primary",
+        "displayName": "Bronze de detalhe",
+        "canonical": "#8b6944",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-700": {
+        "role": "primary",
+        "displayName": "Bronze da marca",
+        "canonical": "#806040",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-800": {
+        "role": "primary",
+        "displayName": "Bronze profundo",
+        "canonical": "#65492f",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-900": {
+        "role": "neutral",
+        "displayName": "Carvão quente",
+        "canonical": "#302820",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "brand-950": {
+        "role": "neutral",
+        "displayName": "Preto quente",
+        "canonical": "#201a17",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#65492f",
+          "#806040",
+          "#947753",
+          "#b59b75",
+          "#d0c0a0",
+          "#f4efe7"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Texto principal",
+        "canonical": "#201a17",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#665c54",
+          "#947753",
+          "#b59b75",
+          "#eee7dd",
+          "#faf8f4",
+          "#ffffff"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Texto secundário",
+        "canonical": "#665c54",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#665c54",
+          "#947753",
+          "#b59b75",
+          "#eee7dd",
+          "#faf8f4",
+          "#ffffff"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Branco",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#665c54",
+          "#947753",
+          "#b59b75",
+          "#eee7dd",
+          "#faf8f4",
+          "#ffffff"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Marfim",
+        "canonical": "#faf8f4",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#665c54",
+          "#947753",
+          "#b59b75",
+          "#eee7dd",
+          "#faf8f4",
+          "#ffffff"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Linho",
+        "canonical": "#eee7dd",
+        "tonalRamp": [
+          "#201a17",
+          "#302820",
+          "#665c54",
+          "#947753",
+          "#b59b75",
+          "#eee7dd",
+          "#faf8f4",
+          "#ffffff"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título do hero",
+        "purpose": "Celular; display-tablet em 640px e display-desktop em 1024px."
+      },
+      "headline": {
+        "displayName": "Título de seção",
+        "purpose": "Heading compartilhado; variações tablet e desktop nos mesmos pontos."
+      },
+      "service-title": {
+        "displayName": "Área de atuação",
+        "purpose": "Linha de serviço; variação tablet em 640px."
+      },
+      "title": {
+        "displayName": "Título de apoio",
+        "purpose": "Legenda do retrato, etapas e endereço."
+      },
+      "professional-name": {
+        "displayName": "Nome profissional",
+        "purpose": "Nome da Dra. Sayonara na apresentação."
+      },
+      "body": {
+        "displayName": "Texto principal",
+        "purpose": "Leitura institucional; hero usa body-hero-tablet em 640px."
+      },
+      "body-small": {
+        "displayName": "Texto secundário",
+        "purpose": "FAQ, diálogo e endereço."
+      },
+      "compact-body": {
+        "displayName": "Texto compacto",
+        "purpose": "Serviços e etapas."
+      },
+      "navigation": {
+        "displayName": "Navegação",
+        "purpose": "Links desktop."
+      },
+      "label": {
+        "displayName": "CTA",
+        "purpose": "Ações principais; tamanho lg usa label-large em 640px."
+      },
+      "label-compact": {
+        "displayName": "Link compacto",
+        "purpose": "Link de mapa em caixa alta."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 18px 48px rgb(32 26 23 / 18%)",
+        "purpose": "Sombra estrutural do diálogo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "navigation",
+        "value": "180ms ease",
+        "purpose": "Cor e sublinhado da navegação; cor dos links do rodapé."
+      },
+      {
+        "name": "cta",
+        "value": "200ms",
+        "purpose": "Cor de fundo e borda do CTA compartilhado."
+      },
+      {
+        "name": "menu",
+        "value": "220ms",
+        "purpose": "Altura e opacidade da navegação móvel."
+      },
+      {
+        "name": "dialog",
+        "value": "240ms",
+        "purpose": "Entrada e saída do diálogo; y 24/16 e scale .98/.99."
+      },
+      {
+        "name": "signature",
+        "value": "1000ms cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "Revelação temporária do retrato, de clip-path inset(0 0 12% 0) a inset(0)."
+      },
+      {
+        "name": "reveal-variant",
+        "value": "680ms cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Variante declarada opacity 0/y 24 para opacity 1/y 0; blocos editoriais usam initial=false."
+      },
+      {
+        "name": "stagger",
+        "value": "100ms; delayChildren 40ms",
+        "purpose": "Intervalos declarados de escalonamento."
+      },
+      {
+        "name": "portrait-motion",
+        "value": "900ms; delay 160ms; cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Configuração do retrato com initial=false; a assinatura visível é definida em CSS."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none (hero-signature); 0.01ms (CSS); reducedMotion:user (MotionConfig)",
+        "purpose": "Desativa a assinatura, reduz durações CSS e usa rolagem automática."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "logo",
+        "value": "360px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "CTA principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Contato por WhatsApp no tamanho md, bronze e plano.",
+      "html": "<a class=\"ds-primary\" href=\"https://wa.me/5531998770607?text=Ol%C3%A1%2C%20Dra.%20Sayonara!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20uma%20consulta%20presencial%20ou%20on-line.\" target=\"_blank\" rel=\"noopener noreferrer\">Converse com a Dra. Sayonara <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-700,#806040);border-radius:4px;background:var(--color-brand-700,#806040);color:var(--color-paper,#ffffff);font:600 14px/20px var(--font-body,\"Manrope\"),system-ui,sans-serif;text-align:center;text-decoration:none;user-select:none;transition:background-color 200ms,border-color 200ms}.ds-primary:hover{background:var(--color-brand-800,#65492f);border-color:var(--color-brand-800,#65492f)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms}}"
+    },
+    {
+      "name": "CTA compacto",
+      "kind": "button",
+      "refersTo": "button-primary-small",
+      "description": "WhatsApp no cabeçalho, tamanho sm.",
+      "html": "<a class=\"ds-primary ds-small\" href=\"https://wa.me/5531998770607?text=Ol%C3%A1%2C%20Dra.%20Sayonara!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20uma%20consulta%20presencial%20ou%20on-line.\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-700,#806040);border-radius:4px;background:var(--color-brand-700,#806040);color:var(--color-paper,#ffffff);font:600 14px/20px var(--font-body,\"Manrope\"),system-ui,sans-serif;text-align:center;text-decoration:none;user-select:none;transition:background-color 200ms,border-color 200ms}.ds-primary:hover{background:var(--color-brand-800,#65492f);border-color:var(--color-brand-800,#65492f)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms}}.ds-small{padding:12px 20px}"
+    },
+    {
+      "name": "CTA amplo",
+      "kind": "button",
+      "refersTo": "button-primary-large",
+      "description": "Hero e contato; margens e texto aumentam a partir de 640px.",
+      "html": "<a class=\"ds-primary ds-large\" href=\"https://wa.me/5531998770607?text=Ol%C3%A1%2C%20Dra.%20Sayonara!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20uma%20consulta%20presencial%20ou%20on-line.\" target=\"_blank\" rel=\"noopener noreferrer\">Converse com a Dra. Sayonara <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;max-width:100%;padding:14px 24px;border:1px solid var(--color-brand-700,#806040);border-radius:4px;background:var(--color-brand-700,#806040);color:var(--color-paper,#ffffff);font:600 14px/20px var(--font-body,\"Manrope\"),system-ui,sans-serif;text-align:center;text-decoration:none;user-select:none;transition:background-color 200ms,border-color 200ms}.ds-primary:hover{background:var(--color-brand-800,#65492f);border-color:var(--color-brand-800,#65492f)}.ds-primary:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-primary{transition-duration:.01ms}}.ds-large{padding:16px 20px}@media(min-width:640px){.ds-large{padding:16px 28px;font-size:16px;line-height:24px}}"
+    },
+    {
+      "name": "CTA inverso",
+      "kind": "button",
+      "refersTo": "button-inverse",
+      "description": "Ação branca na chamada final de fundo bronze.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-inverse\" href=\"https://wa.me/5531998770607?text=Ol%C3%A1%2C%20Dra.%20Sayonara!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20uma%20consulta%20presencial%20ou%20on-line.\" target=\"_blank\" rel=\"noopener noreferrer\">Fale pelo WhatsApp <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div>",
+      "css": ".ds-band{padding:24px;background:var(--color-brand-700,#806040)}.ds-inverse{display:inline-flex;align-items:center;gap:12px;padding:16px 24px;border-radius:9999px;background:var(--color-paper,#ffffff);color:var(--color-brand-800,#65492f);font:600 10px/15px var(--font-body,\"Manrope\"),system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;transition:transform 150ms}.ds-inverse:hover{transform:translateY(-2px)}.ds-inverse:focus-visible{outline:2px solid white;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-inverse{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Navegação principal",
+      "kind": "nav",
+      "description": "Links com linha bronze revelada no hover; lista desktop a partir de 1024px no app.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegação principal\"><a href=\"#inicio\">Início</a><a href=\"#atuacao\">Atuação</a><a href=\"#sobre\">Sobre</a><a href=\"#avaliacoes\">Avaliações</a><a href=\"#contato\">Contato</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:28px;background:var(--color-paper,#ffffff)}.ds-nav a{position:relative;padding:12px 0;color:var(--color-ink-soft,#665c54);font:600 15px/1.5 var(--font-body,\"Manrope\"),system-ui,sans-serif;text-decoration:none;transition:color 180ms ease}.ds-nav a::after{position:absolute;inset:auto 0 0;height:1px;content:\"\";background:var(--color-brand-700,#806040);transform:scaleX(0);transform-origin:left;transition:transform 180ms ease}.ds-nav a:hover{color:var(--color-brand-700,#806040)}.ds-nav a:hover::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav a,.ds-nav a::after{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Pergunta frequente",
+      "kind": "custom",
+      "description": "Disclosure nativo, independente de JavaScript.",
+      "html": "<details class=\"ds-faq\"><summary>Onde fica o escritório?</summary><p>O escritório fica na Rua Amando Filho, 181 — Centro, Pedro Leopoldo — MG, 33600-000. Entre em contato para combinar sua visita.</p></details>",
+      "css": ".ds-faq{padding:24px 0;border-block:1px solid rgb(32 26 23 / 15%);background:var(--color-brand-50,#f4efe7);color:var(--color-ink,#201a17);font:400 14px/28px var(--font-body,\"Manrope\"),system-ui,sans-serif}.ds-faq summary{cursor:pointer;font-size:16px;line-height:24px;font-weight:600}.ds-faq summary::marker{color:var(--color-brand-700,#806040)}.ds-faq summary:hover{color:var(--color-brand-700,#806040)}.ds-faq summary:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:4px}.ds-faq p{max-width:36rem;margin:16px 0 0;color:var(--color-ink-soft,#665c54)}"
+    },
+    {
+      "name": "Painel de endereço",
+      "kind": "card",
+      "refersTo": "address-panel",
+      "description": "Painel branco com endereço fornecido e consulta no Google Maps.",
+      "html": "<section class=\"ds-address\"><h3>Nosso escritório em Pedro Leopoldo</h3><p>Sayonara Andrade Advocacia</p><address>Rua Amando Filho, 181 — Centro, Pedro Leopoldo — MG, 33600-000</address><div class=\"ds-address-action\"><span>Entre em contato para agendar sua visita.</span><a href=\"https://www.google.com/maps/search/?api=1&amp;query=Sayonara%20Andrade%20Advocacia%2C%20Rua%20Amando%20Filho%2C%20181%2C%20Pedro%20Leopoldo%20MG\" target=\"_blank\" rel=\"noopener noreferrer\">Ver no Google Maps <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a></div></section>",
+      "css": ".ds-address{position:relative;padding:28px;border:1px solid rgb(32 26 23 / 10%);background:var(--color-paper,#ffffff);color:var(--color-ink,#201a17);font-family:var(--font-body,\"Manrope\"),system-ui,sans-serif}.ds-address::before{content:\"\";position:absolute;right:0;top:0;width:112px;height:4px;background:var(--color-brand-600,#8b6944)}.ds-address h3{margin:0;font:500 24px/32px var(--font-display-face,\"Cormorant Garamond\"),Georgia,serif;letter-spacing:-.025em}.ds-address p{margin:24px 0 8px;font-size:14px;line-height:20px;font-weight:600;color:var(--color-brand-700,#806040)}.ds-address address{max-width:28rem;font:400 14px/28px var(--font-body,\"Manrope\"),system-ui,sans-serif;color:var(--color-ink-soft,#665c54)}.ds-address-action{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-top:28px;padding-top:28px;border-top:1px solid rgb(32 26 23 / 10%);font-size:12px;color:var(--color-ink-soft,#665c54)}.ds-address a{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border:1px solid rgb(32 26 23 / 15%);border-radius:9999px;color:var(--color-ink,#201a17);font:600 10px/15px var(--font-body,\"Manrope\"),system-ui,sans-serif;text-transform:uppercase;letter-spacing:.13em;text-decoration:none;transition:color 150ms,border-color 150ms}.ds-address a:hover{border-color:var(--color-brand-700,#806040);color:var(--color-brand-700,#806040)}.ds-address a:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:4px}@media(min-width:640px){.ds-address{padding:40px}}@media(prefers-reduced-motion:reduce){.ds-address a{transition-duration:.01ms}}"
+    },
+    {
+      "name": "Linha de serviço",
+      "kind": "custom",
+      "description": "Prévia visual; o acionamento do diálogo é implementado pelo app.",
+      "html": "<article class=\"ds-service\"><span class=\"ds-service-icon\"><svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-8H9v8H4a1 1 0 0 1-1-1Z\"/></svg></span><div><h3>Regularização de Imóveis</h3><p>Um olhar atento à documentação e à história do seu imóvel para orientar cada próximo passo.</p></div><button type=\"button\" aria-haspopup=\"dialog\">Saiba mais <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button></article>",
+      "css": ".ds-service{display:grid;gap:20px;padding:32px 0;border-block:1px solid rgb(32 26 23 / 15%);background:var(--color-ivory,#faf8f4)}.ds-service-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:9999px;background:var(--color-brand-50,#f4efe7);color:var(--color-brand-700,#806040)}.ds-service h3{margin:0;max-width:36rem;font:500 1.55rem/1.25 var(--font-display-face,\"Cormorant Garamond\"),Georgia,serif;letter-spacing:-.025em;color:var(--color-ink,#201a17)}.ds-service p{margin:12px 0 0;max-width:36rem;font:400 13px/24px var(--font-body,\"Manrope\"),system-ui,sans-serif;color:var(--color-ink-soft,#665c54)}.ds-service button{display:inline-flex;align-items:center;gap:8px;min-height:44px;width:fit-content;padding:0;border:0;background:transparent;color:var(--color-brand-800,#65492f);font:600 12px/16px var(--font-body,\"Manrope\"),system-ui,sans-serif;cursor:pointer}.ds-service button:hover{color:var(--color-brand-700,#806040)}.ds-service button:focus-visible{outline:2px solid var(--color-brand-700,#806040);outline-offset:4px}@media(min-width:640px){.ds-service{grid-template-columns:48px 1fr auto;gap:28px;padding:36px 0}.ds-service h3{font-size:1.8rem}.ds-service button{align-self:center}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Clareza com cuidado",
+    "overview": "O bronze e o preto quente do logo orientam uma presença profissional e acolhedora. Superfícies claras, títulos expressivos e leitura espaçada dão atenção à pessoa, ao patrimônio e à história de cada família. Cormorant Garamond traz presença aos títulos; Manrope sustenta textos e controles.\n\nA identidade usa o logo e o retrato originais da Dra. Sayonara Andrade. Divisórias finas e mudanças de superfície organizam o conteúdo; a fotografia real é o principal elemento de reconhecimento. Este registro descreve o sistema implementado, extraído de app/globals.css, app/layout.tsx, app/page.tsx e app/components/GlowingButton.tsx.",
+    "keyCharacteristics": [
+      "Bronze para ações e ênfases; preto quente e dourado claro nos trechos escuros.",
+      "Logo integral sobre superfície clara e retrato em sua proporção original.",
+      "Títulos serifados, leitura sem serifa e composição arejada.",
+      "Serviços em linhas, controles planos e movimento breve que respeita a preferência do usuário."
+    ],
+    "rules": [
+      {
+        "name": "The Logo Integrity Rule",
+        "body": "Preservar o logo original, sem recoloração, distorção ou corte, e oferecer uma superfície clara para sua leitura.",
+        "section": "colors"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Organizar a página por superfícies e divisórias; reservar a sombra registrada para o diálogo.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preservar integralmente logo e retrato, com suas proporções e cores originais.",
+      "Do usar bronze nas ações e dourados claros para leitura sobre preto quente.",
+      "Do manter foco visível, navegação por teclado e movimento reduzido.",
+      "Do manter os tokens alinhados aos fontes do tema e aos componentes implementados.",
+      "Do usar somente dados institucionais fornecidos e centralizados em app/lib/brand.ts."
+    ],
+    "donts": [
+      "Don't recolorir o logo ou aplicar corte permanente ao retrato.",
+      "Don't acrescentar brilhos aos CTAs planos ou sombras às linhas de serviços.",
+      "Don't ocultar conteúdo até a rolagem nem exigir animação para acessar informações.",
+      "Don't inventar notas, depoimentos, credenciais ou promessas de resultado."
+    ]
+  }
+}
